@@ -18,9 +18,9 @@ program. Fun-loving system administrators can add fortune to users'
 .login files, so that the users get their dose of wisdom each time
 they log in.
 
-This package contains the Dune Chronicles pre-chapter quotes
-converted to a fortune-mod form. Quotes from the pre-Dune novels,
-written by F.Herbert's are also included.
+This package contains the Dune Chronicles pre-chapter quotes converted
+to a fortune-mod form. Quotes from the pre-Dune novels, written by
+F.Herbert's are also included.
 
 %description -l pl
 Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
@@ -30,7 +30,8 @@ poczuciem humoru mog± dodaæ fortune do plików .login u¿ytkowników tak,
 by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
 
 Ten pakiet zawiera cytaty poprzedzaj±ce rozdzia³y Kronik Diuny.
-Do³±czono równie¿ cytaty z prequeli, napisanych przez syna F. Herberta.
+Do³±czono równie¿ cytaty z prequeli, napisanych przez syna F.
+Herberta.
 
 %prep
 %setup -q -n %{name}.%{version}

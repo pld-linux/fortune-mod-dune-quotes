@@ -1,0 +1,50 @@
+Summary:	The Dune Series Fortunes
+Summary(pl):	Zestaw fortunek z cytatami z Diuny
+Name:		fortune-mod-dune-quotes
+Version:	2.0.0
+Release:	1
+License:	freeware
+Group:		Applications/Games
+Requires:	fortune-mod
+Source0:	http://dune.s31.pl/%{name}.%{version}.tar.gz
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
+
+%description
+Fortune-mod contains the ever-popular fortune program. Want a little
+bit of random wisdom revealed to you when you log in? Fortune's your
+program. Fun-loving system administrators can add fortune to users'
+.login files, so that the users get their dose of wisdom each time
+they log in.
+
+This package contains the Dune Chronicles pre-chapter quotes
+converted to a fortune-mod form. Quotes from the pre-Dune novels,
+written by F.Herbert's are also included.
+
+%description -l pl
+Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
+"przepowiednia"). Masz ochotê na odrobinê m±dro¶ci przekazanej Ci
+podczas logowania? Program fortune jest dla Ciebie. Administratorzy z
+poczuciem humoru mog± dodaæ fortune do plików .login u¿ytkowników tak,
+by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
+
+Ten pakiet zawiera cytaty poprzedzaj±ce rozdzia³y Kronik Diuny.
+Do³±czono równie¿ cytaty z prequeli, napisanych przez syna F. Herberta.
+
+%prep
+%setup -q -n %{name}.%{version}
+
+%build
+
+%install
+rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
+
+install * $RPM_BUILD_ROOT%{_datadir}/games/fortunes
+
+%clean
+#rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(644,root,root,755)
+%{_datadir}/games/fortunes/*

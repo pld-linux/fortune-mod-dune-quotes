@@ -2,8 +2,8 @@ Summary:	The Dune Series Fortunes
 Summary(pl):	Zestaw fortunek z cytatami z Diuny
 Name:		fortune-mod-dune-quotes
 Version:	2.0.0
-Release:	1
-License:	freeware
+Release:	2
+License:	Freeware
 Group:		Applications/Games
 Requires:	fortune-mod
 Source0:	http://dune.s31.pl/%{name}.%{version}.tar.gz

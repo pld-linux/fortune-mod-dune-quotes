@@ -7,6 +7,7 @@ License:	Freeware
 Group:		Applications/Games
 Requires:	fortune-mod
 Source0:	http://dune.s31.pl/%{name}.%{version}.tar.gz
+# Source0-md5:	5596eae3083565c783ebfbfbcbd7197e
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 

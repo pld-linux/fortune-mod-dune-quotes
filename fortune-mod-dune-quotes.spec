@@ -34,8 +34,6 @@ Do³±czono równie¿ cytaty z prequeli, napisanych przez syna F. Herberta.
 %prep
 %setup -q -n %{name}.%{version}
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
@@ -43,7 +41,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 install * $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 
 %clean
-#rm -rf $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)

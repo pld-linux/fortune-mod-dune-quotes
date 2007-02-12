@@ -1,5 +1,5 @@
 Summary:	The Dune Series Fortunes
-Summary(pl):	Zestaw fortunek z cytatami z Diuny
+Summary(pl.UTF-8):   Zestaw fortunek z cytatami z Diuny
 Name:		fortune-mod-dune-quotes
 Version:	2.0.1
 Release:	2
@@ -22,15 +22,15 @@ This package contains the Dune Chronicles pre-chapter quotes converted
 to a fortune-mod form. Quotes from the pre-Dune novels, written by
 F.Herbert's are also included.
 
-%description -l pl
-Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
-"przepowiednia"). Masz ochotê na odrobinê m±dro¶ci przekazanej Ci
+%description -l pl.UTF-8
+Fortune-mod zawiera wciÄ…Å¼ popularny program fortune ("cytat dnia",
+"przepowiednia"). Masz ochotÄ™ na odrobinÄ™ mÄ…droÅ›ci przekazanej Ci
 podczas logowania? Program fortune jest dla Ciebie. Administratorzy z
-poczuciem humoru mog± dodaæ fortune do plików .login u¿ytkowników tak,
-by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
+poczuciem humoru mogÄ… dodaÄ‡ fortune do plikÃ³w .login uÅ¼ytkownikÃ³w tak,
+by kaÅ¼dy otrzymaÅ‚ swojÄ… dawkÄ™ mÄ…droÅ›ci przy logowaniu.
 
-Ten pakiet zawiera cytaty poprzedzaj±ce rozdzia³y Kronik Diuny.
-Do³±czono równie¿ cytaty z prequeli, napisanych przez syna F.
+Ten pakiet zawiera cytaty poprzedzajÄ…ce rozdziaÅ‚y Kronik Diuny.
+DoÅ‚Ä…czono rÃ³wnieÅ¼ cytaty z prequeli, napisanych przez syna F.
 Herberta.
 
 %prep

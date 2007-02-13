@@ -1,5 +1,5 @@
 Summary:	The Dune Series Fortunes
-Summary(pl.UTF-8):   Zestaw fortunek z cytatami z Diuny
+Summary(pl.UTF-8):	Zestaw fortunek z cytatami z Diuny
 Name:		fortune-mod-dune-quotes
 Version:	2.0.1
 Release:	2
